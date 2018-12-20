@@ -1,0 +1,375 @@
+body {
+margin: 0;
+
+}
+
+.wrapper {
+width: 920px; /*задаем фиксированную ширину контенту*/
+
+margin: 0 auto; /*выравниваем блок по центру страницы*/
+
+}
+
+/*TOP NAVIGATION*/
+
+.bound-top-navigation {
+	background: #fffff0;
+
+}
+
+#top-navigation {
+	height: 28px;
+
+	background: #fffff0;
+	
+	padding: 7px 0;
+
+	font-size: 12px;
+	
+	color: #fffff0;
+}
+
+#block-date {
+	color: black;
+	float: left;
+}
+
+#block-nav-menu ul{
+margin: 0;
+
+padding: 0;
+
+}
+
+#block-nav-menu {
+float: right; /*Блок с меню размещаем справа*/
+
+}
+
+
+#block-nav-menu ul li{
+
+float: left;
+
+list-style: none;
+padding: 0 7px;
+
+border-right: solid 1px #060606; /*создаем границу справа*/
+
+}
+
+#block-nav-menu	li:last-child{
+
+border-right: none; 
+
+}
+
+#block-nav-menu	li a {
+text-decoration: none;
+
+color: #060606;
+
+}
+#block-nav-menu	li a:hover {
+
+text-decoration: underline;
+
+}
+
+
+
+/*LOGO AND MAIN MENU*/
+
+
+.logo-main-menu {
+width: 980px;
+
+padding-top: 19px; /*Зададим отступ сверху, чтобы логотип размещался по центру блока*/
+
+height: 83px; /*соответственно уменьшим высоту блока (так как добавили от-ступ)*/
+
+background: #fffff0;
+
+
+}
+#logo {
+margin-top: 25px;
+margin-left: 24px;
+
+width: 205px;
+background: #FF0000;
+
+float: left;
+
+}
+
+#main-menu {
+
+float: right;
+
+height: 83px;
+}
+
+#main-menu ul {
+
+margin-top: 19px; /*необходимо добавить отступ сверху, чтобы прижать меню к нижнему блоку*/
+
+overflow: hidden;
+padding: 0;
+
+margin-bottom: 0;
+
+}
+
+#main-menu ul li{
+float: left;
+
+list-style: none;
+
+background: #f2f2f2; /*задаем серый цвет для всех элементов списка*/
+
+padding: 24px 32px 21px 32px; /*добавляем внутренние отступы, как показано на рисунке Рисунок 7*/
+
+margin-right: 1px;
+/*Добавляем закругления на углах блока*/
+
+border-top-left-radius: 20px;
+
+border-top-right-radius: 20px;
+}
+
+#main-menu ul li:hover,
+#main-menu ul li.active-element {
+
+background: #FF0000;
+
+color: #fff;
+
+
+}
+
+
+
+
+
+/*ADVERTISEMENT AND CONTENT*/
+
+/*ADVERTISEMENT*/
+
+.bound-advertisement-content {
+background: #ffffff;
+
+}
+
+#advertisement {
+width: 980px;
+
+height: 335px;
+
+background: white;
+}
+
+/*CONTENT*/
+
+#content {
+
+height: 500px;
+background: white;
+
+clear: both;
+
+}
+/*NEWS*/
+
+#block-news {
+width: 320px;
+
+height: 400px;
+
+float: left; /*делаем блок плавающим и прижимаем влево, следующий ПЛАВУЮЩИЙ блок прижмется к нему*/
+
+}
+
+#block-news .news {
+
+overflow: hidden;
+
+
+margin-top: 15px;
+}
+
+#block-news .news-image {
+float: left;
+
+width: 90px;
+
+height: 90px;
+
+margin-right: 20px;
+}
+
+#block-news .news-info {
+float: left;
+
+width: 175px;
+
+height: 90px;
+}
+
+#block-news .news-date {
+
+font-size: 14px;
+
+color: #000700;
+margin-top: 8px;
+
+}
+
+#block-news .news-content {
+font-size: 14px;
+
+color: #84807d;
+
+margin-top: 8px;
+}
+#block-offers {
+
+width: 600px;
+
+height: 400px;
+
+background: #8773f2;
+
+float: left; /*необходимо указать, так как этот блок является следующим за пла-вающим (иначе он прижмется к родительскому элементу)*/
+
+}
+
+.button {
+
+padding: 8px 25px 10px 28px;
+
+
+float: right;
+
+font-weight: bold;
+
+font-size: 14px;
+background: url("images/but.jpg") 0 0 repeat-x;
+
+border-radius: 8px;
+
+-webkit-box-shadow: 0px 3px 5px #A29F9F;
+-moz-box-shadow: 0px 3px 5px #A29F9F;
+
+box-shadow: 0 3px 5px #A29F9F;
+
+}
+
+<script language="JavaScript" type="text/javascript">
+obj_hours=document.getElementById("hours");
+
+name_month=new Array ("Января","Февраля","Марта","Апреля","Мая",
+"Июня","Июля","Августа","Сентября","Октября","Ноября","Декабря");
+name_day=new Array ("Воскресенье","Понедельник","Вторник",
+"Среда","Четверг","Пятница","Суббота");
+
+/*FOOTER*/
+.bound-footer {
+ background: #e6e6e6;
+}
+#footer {
+ height: 296px;
+}
+#block-subscription {
+ width: 320px;
+ height: 296px;
+ background: #fffff1;
+ float: left;
+}
+#block-why-us {
+ width: 200px;
+ height: 296px;
+ background: #ffffff;
+ float: left;
+}
+
+#block-follow-us {
+ width: 200px;
+ height: 296px;
+ background: #ffffff;
+ float: left;
+}
+#block-address {
+ width: 200px;
+ height: 296px;
+ background: #ffffff;
+ float: left;
+}
+.bound-below-footer {
+ height: 110px;
+ background: #E0FFFF;
+}
+
+#block-subscription .form-input-text {
+ background: none;
+ padding: 7px 10px;
+ width: 251px;
+ font-size: 12px;
+ font-family: Arial,Helvetica,sans-serif;
+ color: #aaaaaa;
+ /*height: 14px;*/
+ border: none;
+ margin: 0;
+}
+#block-subscription .subscribe-button {
+ margin-top: 10px;
+ margin-bottom: 10px;
+
+ float:left;
+}
+#block-subscription .bg-input {
+ background: url("images/bg-newsletter-input.png") 0 0 no-repeat;
+}
+#block-subscription .subscription-form {
+ overflow: hidden;
+}
+
+#submit {
+font-family: sans-serif;
+color: #ffffff;
+font-size: 18px;
+padding: 0px;
+text-decoration: none;
+box-shadow: 0px 1px 3px #666666;
+-webkit-box-shadow: 0px 1px 3px #666666;
+-moz-box-shadow: 0px 1px 3px #666666;
+text-shadow: 1px 1px 3px #666666;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#ce1515), to(#8b0d0d));
+background: -moz-linear-gradient(top, #ce1515, #8b0d0d);
+}
+ 
+#submit:hover {
+ background: -webkit-gradient(linear, 0 0, 0 100%, from(#8b0d0d), to(#ce1515));
+ background: -moz-linear-gradient(top, #8b0d0d, #ce1515)
+}
+#respond input[type=text], textarea {
+ -webkit-transition: all 0.30s ease-in-out;
+ -moz-transition: all 0.30s ease-in-out;
+ -ms-transition: all 0.30s ease-in-out;
+ -o-transition: all 0.30s ease-in-out;
+ outline: none;
+ padding: 3px 0px 3px 3px;
+ margin: 5px 1px 3px 0px;
+ border: 1px solid #DDDDDD;
+}
+
+
+
+
+
+
+
+
+
+
+
